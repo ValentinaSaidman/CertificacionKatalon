@@ -25,16 +25,20 @@ WebUI.maximizeWindow()
 
 WebUI.waitForPageLoad(GlobalVariable.cargaTiempoPag)
 
-WebUI.setText(findTestObject('Saucedemo_record_web/CP1_inicio_sesion/Page_Swag Labs/input_user-name'), 'standard_user')
+WebUI.setText(findTestObject('Saucedemo_record_web/CP11_inicio_sesion_usuarioValido3/Page_Swag Labs/input_Swag Labs_user-name'), 
+    'problem_user')
 
-WebUI.setEncryptedText(findTestObject('Saucedemo_record_web/CP1_inicio_sesion/Page_Swag Labs/input_password'), 'qcu24s4901FyWDTwXGr6XA==')
+WebUI.setEncryptedText(findTestObject('Saucedemo_record_web/CP11_inicio_sesion_usuarioValido3/Page_Swag Labs/input_Swag Labs_password'), 
+    'qcu24s4901FyWDTwXGr6XA==')
 
-WebUI.waitForElementClickable(findTestObject('Saucedemo_record_web/CP1_inicio_sesion/Page_Swag Labs/input_login-button'), 
+WebUI.waitForElementClickable(findTestObject('Saucedemo_record_web/CP11_inicio_sesion_usuarioValido3/Page_Swag Labs/input_Swag Labs_login-button'), 
     GlobalVariable.cargaTiempoClick)
 
-WebUI.click(findTestObject('Saucedemo_record_web/CP1_inicio_sesion/Page_Swag Labs/input_login-button'))
+WebUI.click(findTestObject('Saucedemo_record_web/CP11_inicio_sesion_usuarioValido3/Page_Swag Labs/input_Swag Labs_login-button'))
 
 WebUI.delay(GlobalVariable.tiempoEspera)
+
+WebUI.takeScreenshot('C:\\Git_Eco_Certificacion\\CertificacionKatalon\\CertificacionKatalon\\Saucedemo_imagenes\\CP11_inicio_sesion_usuarioValido3.png')
 
 WebUI.closeBrowser()
 

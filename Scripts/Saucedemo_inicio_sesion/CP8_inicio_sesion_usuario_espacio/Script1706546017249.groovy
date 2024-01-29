@@ -32,7 +32,7 @@ WebUI.setEncryptedText(findTestObject('Saucedemo_record_web/CP8_inicio_sesion_us
 WebUI.waitForElementClickable(findTestObject('Saucedemo_record_web/CP8_inicio_sesion_usuario_espacio/Page_Swag Labs/input_Swag Labs_login-button'), 
     GlobalVariable.cargaTiempoClick)
 
-WebUI.click(findTestObject('Saucedemo_record_web/CP3_inicio_sesion_campos_vacios/Page_Swag Labs/input_login-button'))
+WebUI.click(findTestObject('Saucedemo_record_web/CP8_inicio_sesion_usuario_espacio/Page_Swag Labs/input_Swag Labs_login-button'))
 
 WebUI.delay(GlobalVariable.tiempoEspera)
 
