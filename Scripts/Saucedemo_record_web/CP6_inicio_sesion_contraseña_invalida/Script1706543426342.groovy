@@ -21,13 +21,20 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.click(findTestObject('Object Repository/Saucedemo_record_web/CP3_inicio_sesion_campos_vacios/Page_Swag Labs/input_user-name'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Saucedemo_record_web/CP3_inicio_sesion_campos_vacios/Page_Swag Labs/input_user-name'))
+WebUI.click(findTestObject('Saucedemo_record_web/CP6_inicio_sesion_contraseña_invalida/campo_usuario'))
 
-WebUI.click(findTestObject('Object Repository/Saucedemo_record_web/CP3_inicio_sesion_campos_vacios/Page_Swag Labs/input_login-button'))
+WebUI.click(findTestObject('Saucedemo_record_web/CP6_inicio_sesion_contraseña_invalida/campo_contraseña'))
 
-WebUI.takeScreenshot('C:\\Git_Certificacion_Eco\\CertificacionKatalon\\Saucedemo_imagenes\\CP3_inicio_sesion_campos_vacios.png')
+WebUI.waitForElementClickable(findTestObject('Saucedemo_record_web/CP6_inicio_sesion_contraseña_invalida/boton_ingresar'), 
+    GlobalVariable.cargaTiempoClick)
+
+WebUI.click(findTestObject('Saucedemo_record_web/CP6_inicio_sesion_contraseña_invalida/boton_ingresar'))
+
+WebUI.delay(GlobalVariable.tiempoEspera)
+
+WebUI.takeScreenshot('C:\\Git_Eco_Certificacion\\CertificacionKatalon\\CertificacionKatalon\\Saucedemo_imagenes\\CP6_inicio_sesion_contraseña_invalida.png')
 
 WebUI.closeBrowser()
 

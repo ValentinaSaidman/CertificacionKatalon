@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CP6_inicio_sesion_contraseña_invalida</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1839baf-e29a-434f-9f0b-aa5ab8e7d57b</testCaseGuid>
+</TestCaseEntity>
