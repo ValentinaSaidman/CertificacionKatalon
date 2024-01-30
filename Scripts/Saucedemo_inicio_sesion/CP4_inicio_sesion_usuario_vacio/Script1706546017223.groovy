@@ -23,15 +23,15 @@ WebUI.navigateToUrl('https://www.saucedemo.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Saucedemo_record_web/CP4_inicio_sesion_usuario_vacio/Page_Swag Labs/input_user-name'))
+WebUI.click(findTestObject('Saucedemo_inicio_sesion/CP4_inicio_sesion_usuario_vacio/Page_Swag Labs/input_user-name'))
 
-WebUI.setEncryptedText(findTestObject('Saucedemo_record_web/CP4_inicio_sesion_usuario_vacio/Page_Swag Labs/input_password'), 
+WebUI.setEncryptedText(findTestObject('Saucedemo_inicio_sesion/CP4_inicio_sesion_usuario_vacio/Page_Swag Labs/input_password'), 
     'qcu24s4901FyWDTwXGr6XA==')
 
-WebUI.waitForElementClickable(findTestObject('Saucedemo_record_web/CP4_inicio_sesion_usuario_vacio/Page_Swag Labs/input_login-button'), 
+WebUI.waitForElementClickable(findTestObject('Saucedemo_inicio_sesion/CP4_inicio_sesion_usuario_vacio/Page_Swag Labs/input_login-button'), 
     GlobalVariable.cargaTiempoClick)
 
-WebUI.click(findTestObject('Saucedemo_record_web/CP4_inicio_sesion_usuario_vacio/Page_Swag Labs/input_login-button'))
+WebUI.click(findTestObject('Saucedemo_inicio_sesion/CP4_inicio_sesion_usuario_vacio/Page_Swag Labs/input_login-button'))
 
 WebUI.delay(GlobalVariable.tiempoEspera)
 

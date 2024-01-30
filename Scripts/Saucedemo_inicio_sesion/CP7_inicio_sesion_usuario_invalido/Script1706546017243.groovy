@@ -23,16 +23,16 @@ WebUI.navigateToUrl('https://www.saucedemo.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Saucedemo_record_web/CP7_inicio_sesion_usuario_invalido/Page_Swag Labs/input_Swag Labs_user-name'), 
+WebUI.setText(findTestObject('Saucedemo_inicio_sesion/CP7_inicio_sesion_usuario_invalido/Page_Swag Labs/input_Swag Labs_user-name'), 
     'asdfgh')
 
-WebUI.setEncryptedText(findTestObject('Saucedemo_record_web/CP7_inicio_sesion_usuario_invalido/Page_Swag Labs/input_Swag Labs_password'), 
+WebUI.setEncryptedText(findTestObject('Saucedemo_inicio_sesion/CP7_inicio_sesion_usuario_invalido/Page_Swag Labs/input_Swag Labs_password'), 
     'qcu24s4901FyWDTwXGr6XA==')
 
-WebUI.waitForElementClickable(findTestObject('Saucedemo_record_web/CP7_inicio_sesion_usuario_invalido/Page_Swag Labs/input_Swag Labs_login-button'), 
+WebUI.waitForElementClickable(findTestObject('Saucedemo_inicio_sesion/CP7_inicio_sesion_usuario_invalido/Page_Swag Labs/input_Swag Labs_login-button'), 
     GlobalVariable.cargaTiempoClick)
 
-WebUI.click(findTestObject('Saucedemo_record_web/CP7_inicio_sesion_usuario_invalido/Page_Swag Labs/input_Swag Labs_login-button'))
+WebUI.click(findTestObject('Saucedemo_inicio_sesion/CP7_inicio_sesion_usuario_invalido/Page_Swag Labs/input_Swag Labs_login-button'))
 
 WebUI.delay(GlobalVariable.tiempoEspera)
 

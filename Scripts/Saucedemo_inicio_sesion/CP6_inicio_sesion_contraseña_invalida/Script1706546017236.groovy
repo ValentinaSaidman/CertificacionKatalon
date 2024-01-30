@@ -23,14 +23,14 @@ WebUI.navigateToUrl('https://www.saucedemo.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Saucedemo_record_web/CP6_inicio_sesion_contraseña_invalida/campo_usuario'))
+WebUI.click(findTestObject('Saucedemo_inicio_sesion/CP6_inicio_sesion_contraseña_invalida/campo_usuario'))
 
-WebUI.click(findTestObject('Saucedemo_record_web/CP6_inicio_sesion_contraseña_invalida/campo_contraseña'))
+WebUI.click(findTestObject('Saucedemo_inicio_sesion/CP6_inicio_sesion_contraseña_invalida/campo_contraseña'))
 
-WebUI.waitForElementClickable(findTestObject('Saucedemo_record_web/CP6_inicio_sesion_contraseña_invalida/boton_ingresar'), 
+WebUI.waitForElementClickable(findTestObject('Saucedemo_inicio_sesion/CP6_inicio_sesion_contraseña_invalida/boton_ingresar'), 
     GlobalVariable.cargaTiempoClick)
 
-WebUI.click(findTestObject('Saucedemo_record_web/CP6_inicio_sesion_contraseña_invalida/boton_ingresar'))
+WebUI.click(findTestObject('Saucedemo_inicio_sesion/CP6_inicio_sesion_contraseña_invalida/boton_ingresar'))
 
 WebUI.delay(GlobalVariable.tiempoEspera)
 
