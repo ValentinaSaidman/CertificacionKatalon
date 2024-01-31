@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CP19_compra_producto_apellido_vacio</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>61463354-a29d-4ee9-b6ec-cc4329edbe34</testCaseGuid>
+</TestCaseEntity>
