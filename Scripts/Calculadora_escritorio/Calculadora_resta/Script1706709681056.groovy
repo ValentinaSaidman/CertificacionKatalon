@@ -17,30 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+Windows.startApplicationWithTitle('C:\\\\Windows\\\\System32\\\\calc.exe', 'Calculadora')
 
-WebUI.navigateToUrl('https://www.saucedemo.com/')
+Windows.click(findWindowsObject('Object Repository/Calculadora/Calculadora_resta/Button'))
 
-WebUI.maximizeWindow()
+Windows.click(findWindowsObject('Object Repository/Calculadora/Calculadora_resta/Button(1)'))
 
-WebUI.waitForPageLoad(GlobalVariable.cargaTiempoPag)
+Windows.click(findWindowsObject('Calculadora/Calculadora_resta/Button(2)'))
 
-WebUI.setText(findTestObject('Saucedemo_inicio_sesion/CP1_inicio_sesion_usuarioValido1/Page_Swag Labs/input_user-name'), 
-    'standard_user')
+Windows.click(findWindowsObject('Object Repository/Calculadora/Calculadora_resta/Button(4)'))
 
-WebUI.setEncryptedText(findTestObject('Saucedemo_inicio_sesion/CP1_inicio_sesion_usuarioValido1/Page_Swag Labs/input_password'), 
-    'qcu24s4901FyWDTwXGr6XA==')
-
-WebUI.waitForElementClickable(findTestObject('Saucedemo_inicio_sesion/CP1_inicio_sesion_usuarioValido1/Page_Swag Labs/input_login-button'), 
-    GlobalVariable.cargaTiempoClick)
-
-WebUI.click(findTestObject('Saucedemo_inicio_sesion/CP1_inicio_sesion_usuarioValido1/Page_Swag Labs/input_login-button'))
-
-WebUI.delay(GlobalVariable.tiempoEspera)
-
-WebUI.takeScreenshot('C:\\Git_Eco_Certificacion\\CertificacionKatalon\\CertificacionKatalon\\Saucedemo_imagenes\\CP1_inicio_sesion_UsuarioValido1.png')
-
-WebUI.takeScreenshotAsCheckpoint('inicio_sesion_usuarioValido1')
-
-WebUI.closeBrowser()
+Windows.closeApplication()
 
