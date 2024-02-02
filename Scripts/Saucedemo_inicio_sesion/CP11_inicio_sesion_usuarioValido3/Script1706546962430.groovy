@@ -40,5 +40,7 @@ WebUI.delay(GlobalVariable.tiempoEspera)
 
 WebUI.takeScreenshot('C:\\Git_Eco_Certificacion\\CertificacionKatalon\\CertificacionKatalon\\Saucedemo_imagenes\\CP11_inicio_sesion_usuarioValido3.png')
 
+WebUI.takeScreenshotAsCheckpoint('usuarioValido3')
+
 WebUI.closeBrowser()
 
