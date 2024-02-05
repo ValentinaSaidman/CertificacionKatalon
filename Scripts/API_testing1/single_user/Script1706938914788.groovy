@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Response = WS.sendRequest(findTestObject('API_bibilioteca/Obtener_libros'))
+Response = WS.sendRequest(findTestObject('API_testing1/single_user'))
 
 WS.verifyResponseStatusCode(Response, 200)
 
